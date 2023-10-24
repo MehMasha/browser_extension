@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "CarTest",
+    "permissions": ["scripting", "activeTab"],
+    "content_scripts":[
+        {
+         "matches":["https://www.twitch.tv/mehmasha"],
+         "js":["main.js"]
+        }
+      ]
+  }
